@@ -1,0 +1,7 @@
+.frnlist {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        box-sizing: border-box;
+        flex: 1 0 auto;
+}

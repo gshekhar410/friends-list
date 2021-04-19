@@ -1,0 +1,82 @@
+/* .frncrd {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        width: 100%;
+        height: 25%;
+        border: 2px;
+        box-sizing: border-box;
+} */
+
+.frncrd {
+    display: grid;
+    grid-template-columns: 60% 20% 20%;
+    grid-template-rows: 40px 20px;
+    border-bottom: 2px solid black;
+    box-sizing: border-box;
+    padding: 5px;
+
+}
+
+.item1 {
+        grid-column-start: 1;
+        grid-column-end: 4; 
+}
+      
+.item2 {
+        grid-row-start: 1;
+        grid-row-end: 2;
+}
+      
+.fav {
+        position: relative;
+        grid-row-start: 1;
+        grid-row-end: 4;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        text-align: center;
+        vertical-align: middle;
+}
+      
+.del {
+        position: relative;
+        grid-row-start: 1;
+        grid-row-end: 4;
+        grid-column-start: 3;
+        grid-column-end: 4
+}
+
+.favSpan {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        font-size: x-large;
+}
+
+.red {
+        color: red;
+}
+
+.black {
+        color: black;
+}
+
+.favSpan:hover {
+        cursor: pointer;
+}
+
+
+
+.delSpan {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        font-size: x-large;
+}
+
+.delSpan:hover {
+        cursor: pointer;;
+}

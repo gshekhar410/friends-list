@@ -1,0 +1,36 @@
+        .addfriend {
+                width: 100%;
+                display: flex;
+        }
+        
+        .addfriend Input {
+        align-self: stretch;
+        position: relative;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        outline: none;
+        width: 100%;
+        height: 30px;
+        font-size: 15px;
+        box-sizing: border-box;
+        padding-left: 10px;
+        padding-top: 14px;
+        padding-bottom: 16px;
+        text-align: center;
+        font-style: italic;
+}
+
+form {
+        width: 50%;
+}
+
+.addfriend Input:focus::placeholder {
+        color: transparent
+}
+
+.addfriend Input::placeholder {
+        color: #222;
+        transition: color 1s ease;
+}
+
