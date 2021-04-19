@@ -1,12 +1,3 @@
-// const friends = [
-//         "Shekhar",
-//         "Rajesh",
-//         "Rohit",
-//         "Virat",
-//         "Paul",
-//         "Arvind"
-// ]
-
 const friends = [
         {
                 name: "Shekhar",
