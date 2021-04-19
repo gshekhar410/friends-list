@@ -45,9 +45,74 @@ const friends = [
                 favorite: false
         },
         {
-                name: "Bhuvi",
+                name: "Elijah",
+                favorite: true
+        },
+        {
+                name: "Niklaus",
+                favorite: true
+        },
+        {
+                name: "Peter",
+                favorite: true
+        },
+        {
+                name: "Thiel",
+                favorite: true
+        },
+        {
+                name: "Stupid",
+                favorite: true
+        },
+        {
+                name: "Hilarious",
+                favorite: true
+        },
+        {
+                name: "Stormi",
+                favorite: true
+        },
+        {
+                name: "Dollar",
+                favorite: true
+        },
+        {
+                name: "Mavi",
+                favorite: true
+        },
+        {
+                name: "Toxic",
+                favorite: true
+        },
+        {
+                name: "Mortal",
+                favorite: true
+        },
+        {
+                name: "Orange",
+                favorite: true
+        },
+        {
+                name: "Mikael",
+                favorite: true
+        },
+        {
+                name: "Parth",
+                favorite: true
+        },
+        {
+                name: "Napier",
+                favorite: true
+        },
+        {
+                name: "Hero",
+                favorite: true
+        },
+        {
+                name: "Mumbiker Nikhil",
                 favorite: true
         }
+
 ]
 
 export default friends;
