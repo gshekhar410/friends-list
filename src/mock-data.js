@@ -1,38 +1,38 @@
 const friends = [
         {
-                name: "Shekhar",
+                name: "Arkin",
                 favorite: false
         },
         {
-                name: "Rajesh",
+                name: "Camille",
                 favorite: false
         },
         {
-                name: "Rohit",
+                name: "Archie",
                 favorite: false
         },
         {
-                name: "Sharma",
+                name: "Ellen",
                 favorite: false
         },
         {
-                name: "Kohli",
+                name: "Jack",
                 favorite: false
         },
         {
-                name: "Ramesh",
+                name: "Henry",
                 favorite: false
         },
         {
-                name: "Tendulkar",
+                name: "Erwin",
                 favorite: true
         },
         {
-                name: "SreeSanth",
+                name: "Jane",
                 favorite: false
         },
         {
-                name: "Bumrah",
+                name: "Denny",
                 favorite: false
         },
         {
@@ -52,7 +52,7 @@ const friends = [
                 favorite: true
         },
         {
-                name: "Stupid",
+                name: "Edwin",
                 favorite: true
         },
         {
@@ -80,7 +80,7 @@ const friends = [
                 favorite: true
         },
         {
-                name: "Orange",
+                name: "Russel",
                 favorite: true
         },
         {
@@ -96,11 +96,11 @@ const friends = [
                 favorite: true
         },
         {
-                name: "Hero",
+                name: "Viper",
                 favorite: true
         },
         {
-                name: "Mumbiker Nikhil",
+                name: "David",
                 favorite: true
         }
 

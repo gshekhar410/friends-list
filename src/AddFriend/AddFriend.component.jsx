@@ -57,7 +57,7 @@ function AddSearchFriend({ add }) {
                 <div className="addfriend">
                         <form >
                                 <div>
-                                        <input autoComplete="off" placeholder="Add a friend" id="nameInput" type="text" onChange={handleChange} onKeyPress={handleEnterPress} value={name} />
+                                        <input autoComplete="off" placeholder="Add a friend" id="nameInput" maxLength="25" type="text" onChange={handleChange} onKeyPress={handleEnterPress} value={name} />
                                         <br></br>
                                 </div>
                         </form>

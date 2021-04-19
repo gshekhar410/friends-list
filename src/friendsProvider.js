@@ -1,7 +1,6 @@
 import React, { createContext, useState, useContext } from 'react';
 import mockData from './mock-data'
 import sortIt from './Utilities/sort';
-import debounced from './Utilities/debounce';
 
 const FriendsContext = createContext()
 export const useFriends = () => useContext(FriendsContext)
